@@ -68,7 +68,7 @@ fmt.Println("a+c=", a+c)
 
 
   var god int= 2034
-  if god %4==0  {
+  if god %4== 0 && god %100== 0  {
    
 	fmt.Println("Год високосный")
   } else {
